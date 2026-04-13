@@ -60,9 +60,9 @@ public class ReferensdataProvider
          createReferensdata("15941878-cd6a-4730-9337-5a9fcb5d7fea", "REGNR", "Regnr (husdjur)")));
 
    private final static List<Referensdata> UPPGIFTSTATUSTYPER = new ArrayList<>(List.of(
-         createReferensdata("1", "PLANERAD", "Planerad"),
-         createReferensdata("2", "TILLDELAD", "Tilldelad"),
-         createReferensdata("3", "AVSLUTAD", "Avslutad")));
+         createReferensdata("c7477256-eabd-4ff2-833a-2db9051caf86", "PLANERAD", "Planerad"),
+         createReferensdata("0b202a3f-052d-450a-8866-ae141a80d289", "TILLDELAD", "Tilldelad"),
+         createReferensdata("5161d678-3835-454c-979b-dc1c9e06beac", "AVSLUTAD", "Avslutad")));
 
    private final static List<Referensdata> YRKANDEROLLER = new ArrayList<>(List.of(
          createReferensdata("80f5f41f-9e55-4fc2-a076-ad5a651e0a9d", "SOKANDE", "Sökande"),
