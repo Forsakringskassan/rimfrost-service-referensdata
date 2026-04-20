@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-service-referensdata.
 
+## 0.0.2 (2026-04-20)
+
+### Bug Fixes
+
+-  Allow GET method for endpoints ([5ae5d](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/5ae5d04fa3d818e) Lars Persson)  
+
 ## 0.0.1 (2026-04-10)
 
 ### Bug Fixes
