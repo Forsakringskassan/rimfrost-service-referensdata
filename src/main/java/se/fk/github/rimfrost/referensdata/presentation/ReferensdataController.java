@@ -3,6 +3,7 @@ package se.fk.github.rimfrost.referensdata.presentation;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.GET;
 import jakarta.ws.rs.NotFoundException;
 import jakarta.ws.rs.Path;
 
@@ -25,6 +26,7 @@ public class ReferensdataController implements ReferensdataControllerApi
    @Inject
    ReferensdataProvider provider;
 
+   @GET
    @Path("/avsiktstyp/{referensdata_id}")
    @Override
    public Referensdata getAvsiktstyp(@PathParam("referensdata_id") String referensdataId)
@@ -33,6 +35,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/avsiktstyp")
    @Override
    public List<Referensdata> getAvsiktstyper()
@@ -41,6 +44,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getAvsiktstyper();
    }
 
+   @GET
    @Path("/avslutstyp/{referensdata_id}")
    @Override
    public Referensdata getAvslutstyp(@PathParam("referensdata_id") String referensdataId)
@@ -49,6 +53,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/avslutstyp")
    @Override
    public List<Referensdata> getAvslutstyper()
@@ -56,6 +61,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getAvslutstyper();
    }
 
+   @GET
    @Path("/beslutstyp/{referensdata_id}")
    @Override
    public Referensdata getBeslutstyp(@PathParam("referensdata_id") String referensdataId)
@@ -64,6 +70,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/beslutstyp")
    @Override
    public List<Referensdata> getBeslutstyper()
@@ -71,6 +78,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getBeslutstyper();
    }
 
+   @GET
    @Path("/beslutsutfallstyp/{referensdata_id}")
    @Override
    public Referensdata getBeslutsutfallstyp(@PathParam("referensdata_id") String referensdataId)
@@ -79,6 +87,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/beslutsutfallstyp")
    @Override
    public List<Referensdata> getBeslutsutfallstyper()
@@ -86,6 +95,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getBeslutsutfallstyper();
    }
 
+   @GET
    @Path("/erbjudande/{referensdata_id}")
    @Override
    public Referensdata getErbjudande(@PathParam("referensdata_id") String referensdataId)
@@ -94,6 +104,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/erbjudande")
    @Override
    public List<Referensdata> getErbjudanden()
@@ -101,6 +112,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getErbjudanden();
    }
 
+   @GET
    @Path("/fssainforationstyp/{referensdata_id}")
    @Override
    public Referensdata getFSSAinformationstyp(@PathParam("referensdata_id") String referensdataId)
@@ -109,6 +121,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/fssainformationstyp")
    @Override
    public List<Referensdata> getFSSAinformationstyper()
@@ -116,6 +129,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getFSSAinformationstyper();
    }
 
+   @GET
    @Path("/idtyp/{referensdata_id}")
    @Override
    public Referensdata getIdtyp(@PathParam("referensdata_id") String referensdataId)
@@ -123,6 +137,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return getIdtyper().stream().filter(r -> r.getId().equals(referensdataId)).findFirst().orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/idtyp")
    @Override
    public List<Referensdata> getIdtyper()
@@ -130,6 +145,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getIdtyper();
    }
 
+   @GET
    @Path("/uppgiftstatustyp/{referensdata_id}")
    @Override
    public Referensdata getUppgiftstatustyp(@PathParam("referensdata_id") String referensdataId)
@@ -138,6 +154,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/uppgiftstatustyp")
    @Override
    public List<Referensdata> getUppgiftstatustyper()
@@ -145,6 +162,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getUppgiftstatustyper();
    }
 
+   @GET
    @Path("/yrkanderoll/{referensdata_id}")
    @Override
    public Referensdata getYrkanderoll(@PathParam("referensdata_id") String referensdataId)
@@ -153,6 +171,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/yrkanderoll")
    @Override
    public List<Referensdata> getYrkanderoller()
@@ -160,6 +179,7 @@ public class ReferensdataController implements ReferensdataControllerApi
       return provider.getYrkanderoller();
    }
 
+   @GET
    @Path("/yrkandestatus/{referensdata_id}")
    @Override
    public Referensdata getYrkandestatus(String referensdataId)
@@ -168,6 +188,7 @@ public class ReferensdataController implements ReferensdataControllerApi
             .orElseThrow(NotFoundException::new);
    }
 
+   @GET
    @Path("/yrkandestatus")
    @Override
    public List<Referensdata> getYrkandestatusar()
