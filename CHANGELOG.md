@@ -2,6 +2,20 @@
 
 Changelog of rimfrost-service-referensdata.
 
+## 1.0.0 (2026-04-28)
+
+### Breaking changes
+
+-  release 1.0 ([03894](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/03894fb14ba8421) Lars Persson)  
+
+### Features
+
+-  release 1.0 ([03894](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/03894fb14ba8421) Lars Persson)  
+
+### Bug Fixes
+
+-  Bump rimfrost-service-referensdata-openapi to released version ([989e9](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/989e965d192df27) Lars Persson)  
+
 ## 0.0.2 (2026-04-20)
 
 ### Bug Fixes
