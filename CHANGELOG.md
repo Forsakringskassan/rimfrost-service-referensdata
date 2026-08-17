@@ -2,6 +2,18 @@
 
 Changelog of rimfrost-service-referensdata.
 
+## 1.1.1 (2026-08-17)
+
+### Bug Fixes
+
+-  trigger release ([3b10e](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/3b10efbaaabaea0) Ulf Slunga)  
+
+## rimfrost-1.1 (2026-06-04)
+
+### Bug Fixes
+
+-  bump vers ([39a74](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/39a747145453ed1) Nils Elveros)  
+
 ## 1.0.0 (2026-04-28)
 
 ### Breaking changes
