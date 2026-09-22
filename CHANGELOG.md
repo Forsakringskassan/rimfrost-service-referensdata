@@ -2,6 +2,15 @@
 
 Changelog of rimfrost-service-referensdata.
 
+## 1.1.2 (2026-09-22)
+
+### Bug Fixes
+
+-  Bump rimfrost-service-referensdata-openapi version ([ceb64](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/ceb64df11290ab4) Lars Persson)  
+
+### Dependency updates
+
+- pin forsakringskassan/.github action to d1349e6 ([22877](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/22877be290c48bf) renovate[bot])  
 ## 1.1.1 (2026-08-17)
 
 ### Bug Fixes
