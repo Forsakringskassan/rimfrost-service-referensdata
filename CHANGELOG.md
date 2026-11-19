@@ -2,6 +2,19 @@
 
 Changelog of rimfrost-service-referensdata.
 
+## 1.1.3 (2026-11-07)
+
+### Bug Fixes
+
+-  **deps**  update dependency se.fk.rimfrost:rimfrost-service-referensdata-openapi-jaxrs-spec to v1.1.2 ([5c270](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/5c270dfb119958a) renovate[bot])  
+
+### Dependency updates
+
+- update forsakringskassan/.github digest to cbc0db8 ([2a3a5](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/2a3a5fe1027ce40) renovate[bot])  
+- update forsakringskassan/.github digest to cbd74f1 ([724bb](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/724bbd597a2d91a) renovate[bot])  
+- update forsakringskassan/.github digest to bfb01f7 ([36ce6](https://github.com/Forsakringskassan/rimfrost-service-referensdata/commit/36ce6b390fac51b) renovate[bot])  
+## rimfrost-1_2 (2026-09-22)
+
 ## 1.1.2 (2026-09-22)
 
 ### Bug Fixes
